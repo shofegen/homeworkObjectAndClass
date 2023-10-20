@@ -15,5 +15,6 @@ public class Main {
         System.out.println("mtsyri.getNameBook() = " + mtsyri.getNameBook());
         System.out.println("mtsyri.getAuthor() = " + mtsyri.getAuthor());
         System.out.println("mtsyri.getYearOfPublication() = " + mtsyri.getYearOfPublication());
+
     }
     }
