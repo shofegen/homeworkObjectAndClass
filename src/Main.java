@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         Author tolstoy = new Author("Лев", "Николаевич");
-        Book annaKarenina = new Book("Анна Каренина", "Толстой Лев Николаевич", 1873);
+        Book annaKarenina = new Book("Анна Каренина", tolstoy, 1873);
         Author lermontov = new Author("Михаил", "Лермонтов");
-        Book mtsyri = new Book("Мцыри", "Михаил Юрьевич Лермонтов", 1837);
+        Book mtsyri = new Book("Мцыри", lermontov, 1837);
         mtsyri.setYearOfPublication(1838);
         System.out.println("tolstoy.getName() = " + tolstoy.getName());
         System.out.println("tolstoy.getSurname() = " + tolstoy.getSurname());
